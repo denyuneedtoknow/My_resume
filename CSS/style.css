@@ -9,6 +9,7 @@ body {
     width: 1200px;
     background: white;
     margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -65,7 +66,93 @@ body {
 
 /* my projects section*/
 
-.my-projects-section {}
+.my-projects-section {
+    margin-bottom: 50px;
+}
+
+.my-projects-list {
+    padding: 0 0 0 17px;
+}
+
+.my-projects-item {
+    color: #000;
+    font-weight: bold;
+}
+
+.my-profects-text {
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 5px;
+}
+
+.my-projects-link {
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.my-projects-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+
+/* my work experience */
+
+.my-work-expirience-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+.my-work-expirience-company {
+    color: #fb6d3a;
+}
+
+.my-work-expirience-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+
+.my-work-experience-divider {
+    color: #000;
+}
+
+.my-work-experience-duties {
+    /* font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959; */
+    padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-work-expirience-company-block {
+    margin: 0 15px 0 0;
+}
 
 
 /* sidebar section */
@@ -84,8 +171,6 @@ body {
     color: #ffffff;
     margin-bottom: 10px;
 }
-
-.softSkills_list {}
 
 .techSkills_list {
     padding: 0 0 0 17px;
@@ -127,12 +212,7 @@ body {
     padding-left: 40px;
 }
 
-.techSkills_section,
 .softSkills_section,
 .techSkills_section {
     margin: 50px 0 0 40px;
 }
-
-.my-work-expirience-section {}
-
-.my-education-section {}
