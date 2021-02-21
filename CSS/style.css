@@ -6,10 +6,10 @@ body {
 .main-container {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200px;
+    width: 1000px;
     background: white;
-    margin: 40px auto;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 5px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.8);
 }
 
 
